@@ -1,0 +1,686 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1657878570933594, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657878570935038, "dur": 13948, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657878570949691, "dur": 95418, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657878571045132, "dur": 10127, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657878579712351, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657878579712738, "dur": 15303, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657878579728044, "dur": 628731, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657878580356778, "dur": 6877, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657878580364157, "dur": 33, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1657878579756262, "dur":7934, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878579764208, "dur":146, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1657878579764374, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1657878579764392, "dur":617, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1657878579765036, "dur":648, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878579765684, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878580335364, "dur":957, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878580336321, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878580336339, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878580336341, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878580336353, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878580336355, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878580336369, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878580336371, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878580336383, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878580336385, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878580336397, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878580336399, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878580336410, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878580336413, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878580336423, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878580336425, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878580336435, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878580336437, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878580336446, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878580336448, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878580336457, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878580336459, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878580336467, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878580336469, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878580336479, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878580336511, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878580336530, "dur":1558, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1657878579765483, "dur":309, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657878579765792, "dur":2107, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657878579767900, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1657878579767919, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657878579767951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657878579786291, "dur":7643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1657878579793956, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657878579793970, "dur":278, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657878579794255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657878579794262, "dur":1888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657878579796168, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657878579796183, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657878579796204, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657878579796230, "dur":1228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657878579797474, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657878579797488, "dur":209, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657878579797703, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657878579797708, "dur":1644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657878579799366, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657878579799382, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657878579799548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657878579799555, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657878579801079, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657878579801095, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657878579801270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657878579801276, "dur":4803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657878579806104, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657878579806122, "dur":1885, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657878579808015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657878579808026, "dur":7260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1657878579815305, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets7.resource" }}
+,{ "pid":12345, "tid":1, "ts":1657878579815324, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657878579815330, "dur":8107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets7.resource" }}
+,{ "pid":12345, "tid":1, "ts":1657878579823459, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1657878579823483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657878579823493, "dur":16300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1657878579839809, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/level7" }}
+,{ "pid":12345, "tid":1, "ts":1657878579839828, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657878579839834, "dur":4077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/level7" }}
+,{ "pid":12345, "tid":1, "ts":1657878579843928, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1657878579843950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657878579843956, "dur":846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1657878579844815, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1657878579844831, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657878579844836, "dur":1336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1657878579846185, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1657878579846228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1657878579846235, "dur":1391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1657878579847642, "dur":488591, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657878579765403, "dur":353, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657878579765756, "dur":1992, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657878579767752, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1657878579767780, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657878579767800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657878579784685, "dur":1658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1657878579786360, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657878579786375, "dur":1656, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657878579788037, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657878579788045, "dur":3313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657878579791375, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657878579791388, "dur":496, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657878579791891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657878579791898, "dur":1621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657878579793531, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657878579793543, "dur":154, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657878579793704, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657878579793742, "dur":14189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657878579807953, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657878579807972, "dur":496, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657878579808474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1657878579808481, "dur":221918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1657878580030416, "dur":304989, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657878579765347, "dur":371, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657878579765748, "dur":1993, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657878579767752, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1657878579767753, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657878579767775, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1657878579767777, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657878579767794, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657878579768170, "dur":2800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1657878579770972, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1657878579770993, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657878579771079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657878579771235, "dur":1641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1657878579772889, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657878579772905, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657878579772924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657878579773289, "dur":1911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657878579775250, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1657878579775275, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657878579775315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657878579775590, "dur":8758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1657878579784369, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657878579784384, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657878579784408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657878579784414, "dur":3808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657878579788237, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657878579788252, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657878579788309, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657878579788315, "dur":5054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657878579793382, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657878579793399, "dur":300, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657878579793705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657878579793767, "dur":5430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657878579799214, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657878579799233, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657878579799257, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657878579799264, "dur":1477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657878579800755, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657878579800768, "dur":328, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657878579801102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657878579801108, "dur":2572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657878579803695, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657878579803710, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657878579803733, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1657878579803740, "dur":209911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1657878580013670, "dur":321750, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579765456, "dur":320, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579765776, "dur":1969, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579767752, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1657878579767787, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579767804, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579769325, "dur":1622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1657878579770962, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1657878579771047, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579771137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579771275, "dur":1377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1657878579772667, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1657878579772681, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579772699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579772705, "dur":7402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1657878579780158, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579780192, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579780219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579780230, "dur":774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579781018, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579781034, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579781055, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579781060, "dur":1293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579782372, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579782387, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579782410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579782416, "dur":827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579783261, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579783280, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579783323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579783329, "dur":1852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579785194, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579785208, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579785231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579785293, "dur":3913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579789223, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579789240, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579789427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579789434, "dur":2927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579792431, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579792489, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579792545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579792552, "dur":1905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579794469, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579794481, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579794678, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579794684, "dur":1787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579796484, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579796495, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579796515, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579796521, "dur":1530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579798065, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579798084, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579798105, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579798111, "dur":2636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579800765, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579800777, "dur":199, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579800982, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579800990, "dur":1573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579802575, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579802787, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579803019, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579803025, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579804087, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579804101, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579804123, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579804129, "dur":5003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579809149, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579809163, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579809186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579809193, "dur":1785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579810991, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579811004, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579811029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579811036, "dur":4338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1657878579815388, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":4, "ts":1657878579815429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579815435, "dur":1846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":4, "ts":1657878579817297, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":4, "ts":1657878579817316, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579817321, "dur":1893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":4, "ts":1657878579819234, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":4, "ts":1657878579819289, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579819328, "dur":1224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":4, "ts":1657878579820571, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":4, "ts":1657878579820592, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579820601, "dur":4945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":4, "ts":1657878579825566, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1657878579825595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579825605, "dur":1253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1657878579826881, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1657878579826904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579826914, "dur":7607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1657878579834545, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1657878579834568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579834578, "dur":1527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1657878579836130, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1657878579836266, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579836304, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579836317, "dur":1231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1657878579837563, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1657878579837690, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579837731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579837742, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1657878579839083, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/level8.resS" }}
+,{ "pid":12345, "tid":4, "ts":1657878579839107, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579839118, "dur":1893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/level8.resS" }}
+,{ "pid":12345, "tid":4, "ts":1657878579841033, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/level6" }}
+,{ "pid":12345, "tid":4, "ts":1657878579841060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579841068, "dur":1733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/level6" }}
+,{ "pid":12345, "tid":4, "ts":1657878579842823, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1657878579842942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579842951, "dur":1615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1657878579844582, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1657878579844602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579844608, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1657878579846007, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1657878579846047, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1657878579846053, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1657878579847217, "dur":488845, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579765527, "dur":278, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579765805, "dur":2054, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579767875, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1657878579767891, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579767936, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579785977, "dur":1627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1657878579787626, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657878579787642, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579787818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579787826, "dur":2754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657878579790600, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657878579790622, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579790764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579790771, "dur":2166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657878579792954, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657878579792993, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579793086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579793125, "dur":2191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657878579795336, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657878579795397, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579795424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579795431, "dur":1539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657878579796985, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657878579796998, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579797127, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579797134, "dur":1130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657878579798277, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657878579798300, "dur":678, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579799108, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579799120, "dur":1633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657878579800802, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657878579800813, "dur":324, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579801162, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579801167, "dur":7053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657878579808236, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657878579808252, "dur":360, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579808619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579808626, "dur":2918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657878579811570, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657878579811583, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579811607, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579811614, "dur":1606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657878579813235, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657878579813251, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579813278, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579813285, "dur":1035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1657878579814335, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":5, "ts":1657878579814377, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579814383, "dur":2880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":5, "ts":1657878579817284, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":5, "ts":1657878579817304, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579817314, "dur":12968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":5, "ts":1657878579830313, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1657878579830340, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579830353, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1657878579831548, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1657878579831571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579831581, "dur":12063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1657878579843659, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/level2.resS" }}
+,{ "pid":12345, "tid":5, "ts":1657878579843679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579843685, "dur":2256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/level2.resS" }}
+,{ "pid":12345, "tid":5, "ts":1657878579845961, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1657878579845986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1657878579845996, "dur":37687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1657878579883701, "dur":452180, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657878579765578, "dur":246, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657878579765824, "dur":2016, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657878579767851, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1657878579767886, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657878579767923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657878579785123, "dur":1372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1657878579786510, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657878579786823, "dur":1049, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657878579787897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657878579787904, "dur":2836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657878579790756, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657878579790769, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657878579790792, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657878579790798, "dur":2228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657878579793037, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657878579793049, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657878579793148, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657878579793154, "dur":2702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657878579795870, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657878579795891, "dur":219, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657878579796116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657878579796123, "dur":1390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657878579797524, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657878579797537, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657878579797557, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657878579797562, "dur":4285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657878579801859, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657878579801875, "dur":423, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657878579802305, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657878579802369, "dur":1481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657878579803868, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657878579803884, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657878579803909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1657878579803916, "dur":336148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1657878580140081, "dur":195288, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579765799, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579765799, "dur":2084, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579767891, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1657878579767919, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579767962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579769036, "dur":1775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1657878579770828, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1657878579770844, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579770867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579771566, "dur":1607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1657878579773187, "dur":567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game.exe" }}
+,{ "pid":12345, "tid":7, "ts":1657878579773754, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579773775, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579773779, "dur":2037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game.exe" }}
+,{ "pid":12345, "tid":7, "ts":1657878579775839, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657878579775858, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579775884, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579776091, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657878579777181, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657878579777196, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579777217, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579777235, "dur":920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657878579778173, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657878579778187, "dur":14, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579778207, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579778213, "dur":2167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657878579780397, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657878579780415, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579780478, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579780484, "dur":1190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657878579781699, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657878579781716, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579781736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579781743, "dur":1412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657878579783171, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657878579783187, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579783213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579783219, "dur":5014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657878579788248, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657878579788262, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579788449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579788455, "dur":3059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657878579791531, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657878579791549, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579791571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579791578, "dur":1737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657878579793328, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657878579793339, "dur":358, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579793704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579793758, "dur":2853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657878579796628, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657878579796698, "dur":686, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579797411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579797417, "dur":3016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657878579800520, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657878579800543, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579800567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579800575, "dur":1025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657878579801612, "dur":675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657878579802287, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579802372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579802379, "dur":1898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657878579804290, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657878579804304, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579804471, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579804477, "dur":6691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657878579811182, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657878579811196, "dur":808, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579812011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1657878579812018, "dur":193742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1657878580005779, "dur":330370, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657878579765938, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657878579765939, "dur":1884, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657878579767831, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1657878579767853, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657878579767871, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657878579786480, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1657878579788041, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657878579788057, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657878579788080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657878579788086, "dur":2592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657878579790692, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657878579790706, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657878579790741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657878579790748, "dur":2223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657878579792986, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657878579792999, "dur":216, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657878579793221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657878579793227, "dur":15118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657878579808363, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657878579808379, "dur":1676, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657878579810061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657878579810069, "dur":2224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657878579812308, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657878579812321, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657878579812559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1657878579812567, "dur":522657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1657878580335245, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1657878580335247, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657878579766004, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657878579766004, "dur":1786, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657878579767798, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1657878579767826, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657878579767844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657878579768876, "dur":2291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1657878579771238, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1657878579771299, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657878579771342, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657878579771491, "dur":1595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1657878579773099, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657878579773120, "dur":199, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657878579773324, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657878579773350, "dur":12014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657878579785388, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657878579785404, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657878579785425, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657878579785431, "dur":4121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657878579789569, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657878579789597, "dur":709, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657878579790336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657878579790345, "dur":1801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657878579792160, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657878579792175, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657878579792391, "dur":47, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657878579792444, "dur":8614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657878579801075, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657878579801088, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657878579801107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657878579801112, "dur":2412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657878579803539, "dur":554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657878579804093, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657878579804122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657878579804128, "dur":5714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657878579809878, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657878579809893, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657878579809969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1657878579809976, "dur":311899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1657878580121892, "dur":213496, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657878579766126, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657878579766126, "dur":1680, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657878579767815, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1657878579767831, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657878579767870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657878579786558, "dur":954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1657878579787528, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657878579787578, "dur":1119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657878579788703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657878579788709, "dur":3409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657878579792146, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657878579792162, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657878579792185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657878579792191, "dur":2162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657878579794365, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657878579794376, "dur":304, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657878579794686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657878579794692, "dur":1750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657878579796454, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657878579796466, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657878579796531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657878579796538, "dur":4842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657878579801393, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657878579801561, "dur":1059, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657878579802626, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657878579802632, "dur":6371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657878579809020, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657878579809036, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657878579809062, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657878579809068, "dur":2027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657878579811155, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657878579811173, "dur":520, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657878579811723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657878579811731, "dur":2168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657878579813958, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657878579814114, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657878579814141, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657878579814148, "dur":1587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1657878579815749, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":10, "ts":1657878579815767, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657878579815773, "dur":8180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":10, "ts":1657878579823982, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":10, "ts":1657878579824004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657878579824011, "dur":15367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":10, "ts":1657878579839398, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/level8" }}
+,{ "pid":12345, "tid":10, "ts":1657878579839421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657878579839428, "dur":1780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/level8" }}
+,{ "pid":12345, "tid":10, "ts":1657878579841230, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/level5" }}
+,{ "pid":12345, "tid":10, "ts":1657878579841252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657878579841258, "dur":1929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/level5" }}
+,{ "pid":12345, "tid":10, "ts":1657878579843203, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/level3" }}
+,{ "pid":12345, "tid":10, "ts":1657878579843222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657878579843229, "dur":869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/level3" }}
+,{ "pid":12345, "tid":10, "ts":1657878579844118, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1657878579844139, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657878579844144, "dur":2883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1657878579847041, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1657878579847146, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657878579847172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1657878579847180, "dur":640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1657878579847831, "dur":488184, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657878579766281, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657878579766281, "dur":1492, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657878579767781, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1657878579767803, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657878579767823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657878579768866, "dur":2086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1657878579770964, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1657878579771086, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657878579771261, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657878579771266, "dur":1849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1657878579773127, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1657878579773153, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657878579773175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657878579773200, "dur":35997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1657878579809216, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1657878579809234, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657878579809420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657878579809426, "dur":2452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1657878579811891, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1657878579811903, "dur":431, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657878579812341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657878579812348, "dur":1794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1657878579814157, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1657878579814187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657878579814207, "dur":2926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1657878579817151, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":11, "ts":1657878579817374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657878579817380, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":11, "ts":1657878579818587, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":11, "ts":1657878579818609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657878579818619, "dur":9697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":11, "ts":1657878579828344, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1657878579828368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1657878579828379, "dur":30916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1657878579859313, "dur":476651, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579766351, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579766351, "dur":1406, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579767765, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1657878579767795, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579767812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579768980, "dur":2011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1657878579771006, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1657878579771020, "dur":320, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579771450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579771458, "dur":1689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1657878579773160, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1657878579773182, "dur":13, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579773199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579773203, "dur":2805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1657878579776025, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657878579776047, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579776068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579776165, "dur":1033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657878579777211, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657878579777234, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579777256, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579777261, "dur":799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657878579778106, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657878579778123, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579778150, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579778156, "dur":2259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657878579780432, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657878579780464, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579780522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579780529, "dur":1237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657878579781785, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657878579781805, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579781829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579781836, "dur":908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657878579782759, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657878579782776, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579782801, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579782807, "dur":1776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657878579784603, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657878579784620, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579784820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579784827, "dur":3605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657878579788447, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657878579788464, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579788558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579788564, "dur":4457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657878579793035, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657878579793050, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579793075, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579793082, "dur":2105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657878579795206, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657878579795223, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579795371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579795379, "dur":6148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657878579801541, "dur":734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657878579802275, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579802301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579802345, "dur":6552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657878579808911, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657878579808924, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579809060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579809067, "dur":3085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657878579812167, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657878579812182, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579812207, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1657878579812213, "dur":109230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/[Internship]_GAME_2022_13_11.07.2022_Nguyen Duy Hoan_15.07.2022_Bai tap 1/Release/Unity-chan 3D Platform Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1657878579921460, "dur":414750, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1657878580339544, "dur":3031, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1657878580364250, "dur": 25393, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1657878580364143, "dur": 25541, "ph": "X", "name": "Write chrome-trace events", "args": {} },
